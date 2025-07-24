@@ -1,8 +1,8 @@
-Customer Churn Prediction Using Artificial Neural Networks
+**Customer Churn Prediction Using Artificial Neural Networks**
 
 This project predicts customer churn using an Artificial Neural Network (ANN) trained on the popular Churn_Modelling.csv dataset. The goal is to determine whether a customer is likely to leave a bank, based on features like geography, balance, credit score, etc.
 
-Project Structure:
+**Project Structure:**
 annclassification/
 ├── Churn_Modelling.csv               # Dataset
 ├── prediction.ipynb                  # Inference using trained model
@@ -16,7 +16,7 @@ annclassification/
 ├── requirements.txt                 # Dependencies
 └── README.md                        # Project Documentation
 
-🔍 Problem Statement
+**🔍 Problem Statement**
 
 Churn is the percentage of service subscribers who discontinue their subscriptions within a given time period. Reducing churn is critical for business growth. This project uses deep learning (ANN) to classify whether a customer will churn based on features like:
 	•	Credit Score
@@ -31,14 +31,14 @@ Churn is the percentage of service subscribers who discontinue their subscriptio
 
 ⸻
 
-📊 Dataset
+**📊 Dataset**
 	•	Source: Churn_Modelling.csv
 	•	Samples: 10,000 customer records
 	•	Target: Exited column (0 = not churned, 1 = churned)
 
 ⸻
 
-🔧 Preprocessing
+**🔧 Preprocessing**
 	•	Feature Engineering:
 	•	Label Encoding for Gender
 	•	OneHot Encoding for Geography
@@ -49,7 +49,7 @@ Churn is the percentage of service subscribers who discontinue their subscriptio
 
 ⸻
 
-🧪 Model Development
+**🧪 Model Development**
 	•	Frameworks Used: TensorFlow + Keras (via scikeras)
 	•	Model Architecture:
 	•	Input layer based on encoded features
@@ -61,7 +61,7 @@ Churn is the percentage of service subscribers who discontinue their subscriptio
 
 ⸻
 
-🔁 Hyperparameter Tuning
+**🔁 Hyperparameter Tuning**
 
 Performed using GridSearchCV with KerasClassifier via scikeras. Tuned parameters:
 	•	Number of neurons
@@ -73,7 +73,7 @@ Results and best parameters are documented in hyperparametertuningann.ipynb.
 
 ⸻
 
-🧪 Experiments & Results
+**🧪 Experiments & Results**
 
 Model evaluation includes:
 	•	Confusion Matrix
@@ -85,7 +85,7 @@ Refer to experiments.ipynb for detailed analysis.
 
 ⸻
 
-🚀 Inference
+**🚀 Inference**
 
 To predict churn for new customer data:
 	1.	Apply the same label/one-hot encoding.
@@ -94,7 +94,7 @@ To predict churn for new customer data:
 
 ⸻
 
-💻 Tech Stack
+**💻 Tech Stack**
 	•	Python 3.x
 	•	TensorFlow 2.15.0
 	•	Scikit-learn
@@ -102,7 +102,7 @@ To predict churn for new customer data:
 	•	Scikeras
 	•	Streamlit (optional for web deployment)
 
-🧪 Running the Notebooks
+**🧪 Running the Notebooks**
 
 Open and execute:
 	•	hyperparametertuningann.ipynb: To tune/train the model
